@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verse Collection - 2C521</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #fff9f3;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #472d1b;
+    }
+    iframe {
+      width: 100%;
+      height: 90vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Verse Collection - 2C521</h1>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vTKTFio1qsWiDHluFQdy7H4gnbsVhEGpQXC0jUHIM6e_AcSdSx9LzRm_EkqgzRFjpSlxYwfqQjRLWJl/pub?embedded=true"></iframe>
+</body>
+</html>
