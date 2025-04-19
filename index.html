@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlvinSpyro | Pyrography Art</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #fff9f3; color: #333; }
+    header { background-color: #472d1b; color: white; padding: 2rem 1rem; text-align: center; }
+    nav { text-align: center; margin-top: 10px; }
+    nav a { margin: 0 15px; color: #472d1b; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem 1rem; max-width: 900px; margin: auto; }
+    .gallery img { max-width: 100%; height: auto; margin-bottom: 1rem; border: 2px solid #ccc; border-radius: 8px; }
+    .tag-section, .bio, .contact { margin-top: 3rem; }
+    footer { text-align: center; padding: 1rem; background-color: #eee; margin-top: 3rem; }
+    form input, form textarea { width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    form button { background-color: #472d1b; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AlvinSpyro</h1>
+    <p>My pyrography artwork portfolio site</p>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#tags">Verse Tags</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="gallery">
+    <h2>Artwork Gallery</h2>
+    <p>Here are some of my favorite pyrography pieces. Each one is crafted with passion, prayer, and purpose.</p>
+    <div class="gallery">
+      <img src="images/sample1.jpg" alt="Artwork 1">
+      <img src="images/sample2.jpg" alt="Artwork 2">
+      <img src="images/sample3.jpg" alt="Artwork 3">
+    </div>
+  </section>
+
+  <section class="tag-section" id="tags">
+    <h2>Engraved Keychain Verse Tags</h2>
+    <p>Small wood tags engraved with inspiring Bible verses. A perfect gift for encouragement.</p>
+    <img src="images/tag1.jpg" alt="Keychain Tag" style="max-width: 200px;">
+    <p>Each tag is ₱48. Payments accepted via GCash, Maya, or bank transfer.</p>
+  </section>
+
+  <section class="bio" id="about">
+    <h2>About Me</h2>
+    <p>I’m Alvin, based in Las Piñas City, Philippines. As a retired international airline crew member, I’ve traveled extensively and been inspired by different cultures and artistic traditions. I first discovered pyrographic art abroad and was fascinated by its beauty and depth. What started as a hobby of laser photo engraving soon became a ministry—engraving Bible verses on wood as spiritual reminders. My wife is my encouragement, and every piece I make is prayerfully crafted from the heart, to reflect that Jesus is the way, the truth, and the life.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact & Orders</h2>
+    <p>To order or inquire, please fill out the form below. We accept payments via GCash, Maya, or bank transfer. I will personally reply to your message as soon as possible.</p>
+    <form action="https://formspree.io/f/mexample" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message or Order Details" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow me on Facebook and Instagram (coming soon)</p>
+    <p>&copy; 2025 AlvinSpyro.art</p>
+  </footer>
+</body>
+</html>
