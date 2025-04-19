@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Verse Collection - 2C521</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2C521 Document</title>
   <style>
     body {
-      font-family: sans-serif;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
+      font-family: sans-serif;
       background-color: #fff9f3;
-      color: #333;
     }
-    h1 {
-      text-align: center;
-      color: #472d1b;
-    }
-    iframe {
+
+    .doc-container {
+      position: relative;
       width: 100%;
-      height: 90vh;
+      padding-top: 141%; /* Aspect ratio for 8.5 x 11 page */
+    }
+
+    .doc-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       border: none;
+    }
+
+    @media (min-width: 768px) {
+      .doc-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding-top: 105%; /* Better ratio for desktop */
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Verse Collection - 2C521</h1>
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vTKTFio1qsWiDHluFQdy7H4gnbsVhEGpQXC0jUHIM6e_AcSdSx9LzRm_EkqgzRFjpSlxYwfqQjRLWJl/pub?embedded=true"></iframe>
+  <div class="doc-container">
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTKTFio1qsWiDHluFQdy7H4gnbsVhEGpQXC0jUHIM6e_AcSdSx9LzRm_EkqgzRFjpSlxYwfqQjRLWJl/pub?embedded=true"></iframe>
+  </div>
 </body>
 </html>
